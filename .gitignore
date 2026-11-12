@@ -1,0 +1,18 @@
+# Third-party reference clones (no license file -> all rights reserved). Local only.
+upstream/
+
+# Working artefacts: recognition JSON and debug overlays.
+out/
+
+# Scanned charts supplied for testing. Vendor catalogue figures, not redistributable.
+in/
+
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+.DS_Store
